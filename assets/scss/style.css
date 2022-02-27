@@ -113,7 +113,7 @@ a {
   -webkit-transition: 1s ease;
   transition: 1s ease;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   z-index: 1;
 }
 
@@ -284,6 +284,10 @@ a {
 }
 
 .skills__ux {
+  width: 95%;
+}
+
+.skills__ps {
   width: 85%;
 }
 
@@ -581,7 +585,7 @@ a {
     font-size: 4rem;
   }
   .header .nav__menu {
-    font-size: 3rem;
+    font-size: 2.5rem;
     width: 30%;
   }
   .header .nav .cv__link {
