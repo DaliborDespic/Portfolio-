@@ -55,7 +55,7 @@ a {
   right: 0;
   margin: auto;
   top: 3rem;
-  background-color: #486581;
+  background-color: #829AB1;
 }
 
 /*====Layout===*/
@@ -67,8 +67,8 @@ a {
   top: 0;
   padding: .5rem 0;
   z-index: 1;
-  -webkit-box-shadow: 1px 1px 10px #486581;
-          box-shadow: 1px 1px 10px #486581;
+  -webkit-box-shadow: 1px 1px 10px #829AB1;
+          box-shadow: 1px 1px 10px #829AB1;
 }
 
 .header .nav {
@@ -107,7 +107,7 @@ a {
   position: absolute;
   top: 0;
   left: -100%;
-  background-color: #486581;
+  background-color: #829AB1;
   width: 100%;
   height: 100vh;
   -webkit-transition: 1s ease;
@@ -159,7 +159,7 @@ a {
 }
 
 .home__description p span {
-  color: #486581;
+  color: #829AB1;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -171,7 +171,7 @@ a {
 }
 
 .home .img__container .home__img-bg {
-  fill: #486581;
+  fill: #829AB1;
 }
 
 /*====About===*/
@@ -198,7 +198,7 @@ a {
 }
 
 .about__container .about__social-icon {
-  color: #486581;
+  color: #829AB1;
   margin: 0 1rem;
 }
 
@@ -237,7 +237,7 @@ a {
   padding: .5rem 1rem;
   margin-bottom: 2rem;
   border-radius: .5rem;
-  background-color: #486581;
+  background-color: #829AB1;
   -webkit-box-shadow: 0px 4px 25px rgba(130, 154, 177, 0.15);
           box-shadow: 0px 4px 25px rgba(130, 154, 177, 0.15);
 }
@@ -392,7 +392,7 @@ a {
 
 .contact__subtitle {
   font-size: 1rem;
-  color: #486581;
+  color: #829AB1;
 }
 
 .contact__text {
@@ -403,14 +403,14 @@ a {
   width: 100%;
   padding: .8rem;
   outline: none;
-  border: 1px solid #486581;
+  border: 1px solid #829AB1;
   margin-bottom: 1rem;
   border-radius: .5rem;
 }
 
 .contact__button {
   display: block;
-  background-color: #486581;
+  background-color: #829AB1;
   color: #f0f4f8;
   font-size: 1rem;
   padding: .75rem 2.5rem;
@@ -427,7 +427,7 @@ a {
   color: #f0f4f8;
   margin: 3rem auto;
   font-size: 1rem;
-  border-top: 2px solid #486581;
+  border-top: 2px solid #829AB1;
 }
 
 .footer__text {
@@ -439,7 +439,7 @@ a {
 }
 
 .footer__link:hover {
-  color: #486581;
+  color: #829AB1;
 }
 
 .footer__title {
@@ -451,7 +451,7 @@ a {
 }
 
 .footer i:hover {
-  color: #486581;
+  color: #829AB1;
 }
 
 .footer .cv {
