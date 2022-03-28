@@ -1,284 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="I am Dalibor Despic and this is my personal website">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="I am Dalibor Despic and this is my personal website"
+    />
     <!-- Style -->
-    <link rel="stylesheet" href="./assets/scss/style.css">
+    <link rel="stylesheet" href="./assets/scss/style.css" />
     <!-- Box icon -->
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
-</head>
+  </head>
 
-<body>
-
-    <header class="header ">
-        <nav class="nav container">
-            <div class="hamburger">
-                <i class='bx bx-menu-alt-left hamburger__icon'></i>
-            </div>
-            <div class="nav__menu">
-                <i class='bx bx-x nav__icon-x'></i>
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">About</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">Skills</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#work" class="nav__link">Projects</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="cv">
-                <a href="./assets/cv/CV.pdf" class="cv__link" target="_blank">Download CV</a>
-            </div>
-        </nav>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <div class="hamburger">
+          <i class="bx bx-menu-alt-left hamburger__icon"></i>
+        </div>
+        <div class="nav__menu">
+          <i class="bx bx-x nav__icon-x"></i>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="cv">
+          <a href="./assets/cv/CV.pdf" class="cv__link" target="_blank"
+            >Download CV</a
+          >
+        </div>
+      </nav>
     </header>
 
     <main>
-        <!--===== HOME =====-->
-        <section class="home container" id="home">
-            <div class="home__description">
-                <h1>HELLO!</h1>
-                <p>My name is <span>Dalibor</span></p>
-                <p>Welcome to my web site</p>
+      <!--===== HOME =====-->
+      <section class="home container" id="home">
+        <div class="home__description">
+          <h1>HELLO!</h1>
+          <p>My name is <span>Dalibor</span></p>
+          <p>Welcome to my web site</p>
+        </div>
+
+        <div class="img__container">
+          <svg
+            class="home__img-bg"
+            viewBox="0 0 479 467"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <mask id="mask0" mask-type="alpha">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+            </mask>
+            <g mask="url(#mask0)">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+              <image
+                class="home__img"
+                width="485"
+                height="514"
+                x="30"
+                y="50"
+                href="assets/img/about_img.png"
+              />
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <!-- ===== ABOUT ===== -->
+      <section class="about container" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container">
+          <h2 class="about__subtitle">I am Dalibor Despic</h2>
+          <span class="about__profession">Frontend developer</span>
+          <p class="about__text">
+            Highly motivated person who decided to make a career shift into
+            frontend development. Skilled JavaScript, CSS3, HTML5, Sass/Scss,
+            Bootstrap, Git. Hard working, honest and friendly person. Always
+            willing to learn new skills.
+          </p>
+
+          <div class="about__social">
+            <a
+              href="https://www.linkedin.com/in/dalibor-despi%C4%87-073734b2/"
+              class="about__social-icon"
+              target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/DaliborDespic"
+              class="about__social-icon"
+              target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills container" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <h2 class="skills__subtitle">Profesional Skills</h2>
+        <div class="skills__container">
+          <div class="skills__wrapper">
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS3/SASS/SCSS</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">65%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-paint skills__icon"></i>
+                <span class="skills__name">GIT</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-paint skills__icon"></i>
+                <span class="skills__name">PHOTOSHOP</span>
+              </div>
+              <div class="skills__bar skills__ps"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__wrapper">
+            <img src="assets/img/skills.jpg" alt="" class="skills__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work container" id="work">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="work__container">
+          <div class="work__img">
+            <img src="assets/img/coffee.png" alt="" />
+
+            <div class="work__link">
+              <a
+                href=" https://dalibordespic.github.io/Coffee-shop/"
+                class="work__link-name"
+                target="_blank"
+                >View details</a
+              >
+            </div>
+          </div>
+          <div class="work__img">
+            <img src="assets/img/Sloba_MIric.png" alt="" />
+
+            <div class="work__link">
+              <a
+                href="https://dalibordespic.github.io/Sloba-js"
+                class="work__link-name"
+                target="_blank"
+                >View details</a
+              >
+            </div>
+          </div>
+          <div class="work__img">
+            <img src="./assets/img/Designer2.png" alt="" />
+
+            <div class="work__link">
+              <a
+                href="https://dalibordespic.github.io/Designer/"
+                class="work__link-name"
+                target="_blank"
+                >View details</a
+              >
+            </div>
+          </div>
+          <div class="work__img">
+            <img src="assets/img/Homemade.png" alt="" />
+
+            <div class="work__link">
+              <a
+                href="https://dalibordespic.github.io/Handmade/"
+                class="work__link-name"
+                target="_blank"
+                >View details</a
+              >
+            </div>
+          </div>
+          <div class="work__img">
+            <img src="assets/img/Planinarenje.png" alt="" />
+
+            <div class="work__link">
+              <a
+                href=" https://dalibordespic.github.io/Cat-app/"
+                class="work__link-name"
+                target="_blank"
+                >View details</a
+              >
+            </div>
+          </div>
+          <div class="work__img">
+            <img src="assets/img/healty_food.png" alt="" />
+
+            <div class="work__link">
+              <a
+                href=" https://dalibordespic.github.io/Healty-food-restaurant/"
+                class="work__link-name"
+                target="_blank"
+                >View details</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <a
+          href="https://github.com/DaliborDespic"
+          class="work__view-more"
+          target="_blank"
+          >View More Projects</a
+        >
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact container" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container">
+          <div class="contact__info">
+            <h3 class="contact__subtitle">EMAIL</h3>
+            <span class="contact__text">dalibordespic@yahoo.com</span>
+
+            <h3 class="contact__subtitle">PHONE</h3>
+            <span class="contact__text">+381 63 717 86 01</span>
+
+            <h3 class="contact__subtitle">ADRESS</h3>
+            <span class="contact__text">Arse Teodorovica 27, Novi Sad</span>
+          </div>
+
+          <form
+            target="_blank"
+            action="https://formsubmit.co/dalibordespic@yahoo.com"
+            method="POST"
+            class="contact__form"
+          >
+            <div class="contact__inputs">
+              <input
+                type="text"
+                name="name"
+                placeholder="Full name"
+                class="contact__input"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                class="contact__input"
+                required
+              />
             </div>
 
-            <div class="img__container">
-                <svg class="home__img-bg" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <mask id="mask0" mask-type="alpha">
-                        <path
-                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
-                    </mask>
-                    <g mask="url(#mask0)">
-                        <path
-                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
-                        <image class="home__img" width="485" height="514" x="30" y="50" href="assets/img/about_img.png" />
-                    </g>
-                </svg>
-            </div>
-        </section>
+            <textarea
+              name="message"
+              rows="10"
+              class="contact__input"
+              required
+            ></textarea>
 
-        <!-- ===== ABOUT ===== -->
-        <section class="about container" id="about">
-            <h2 class="section-title">About</h2>
-
-            <div class="about__container">
-                <h2 class="about__subtitle">I am Dalibor Despic</h2>
-                <span class="about__profession">Frontend developer</span>
-                <p class="about__text">
-                    Highly motivated person who decided to make a career shift into frontend development. Skilled JavaScript, CSS3, HTML5, Sass/Scss, Bootstrap, Git. Hard working, honest and friendly person. Always willing to learn new skills. </p>
-
-                <div class="about__social">
-                    <a href="https://www.linkedin.com/in/dalibor-despi%C4%87-073734b2/" class="about__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/DaliborDespic" class="about__social-icon" target="_blank"><i class='bx bxl-github'></i></a>
-                </div>
-            </div>
-        </section>
-
-        <!--===== SKILLS =====-->
-        <section class="skills container" id="skills">
-            <h2 class="section-title">Skills</h2>
-
-            <h2 class="skills__subtitle">Profesional Skills</h2>
-            <div class="skills__container">
-                <div class="skills__wrapper">
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-html5 skills__icon'></i>
-                            <span class="skills__name">HTML5</span>
-                        </div>
-                        <div class="skills__bar skills__html">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">95%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-css3 skills__icon'></i>
-                            <span class="skills__name">CSS3/SASS/SCSS</span>
-                        </div>
-                        <div class="skills__bar skills__css">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">95%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-javascript skills__icon'></i>
-                            <span class="skills__name">JAVASCRIPT</span>
-                        </div>
-                        <div class="skills__bar skills__js">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">65%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxs-paint skills__icon'></i>
-                            <span class="skills__name">GIT</span>
-                        </div>
-                        <div class="skills__bar skills__ux">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">95%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxs-paint skills__icon'></i>
-                            <span class="skills__name">PHOTOSHOP</span>
-                        </div>
-                        <div class="skills__bar skills__ps">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">85%</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skills__wrapper">              
-                    <img src="assets/img/skills.jpg" alt="" class="skills__img">
-                </div>
-            </div>
-        </section>
-
-        <!--===== WORK =====-->
-        <section class="work container" id="work">
-            <h2 class="section-title">Projects</h2>
-
-            <div class="work__container ">
-                <div class="work__img">
-                    <img src="assets/img/coffee.png" alt="">
-
-                    <div class="work__link">
-                        <a href=" https://dalibordespic.github.io/Coffee-shop/" class="work__link-name" target="_blank">View details</a>
-                    </div>
-                </div>
-                <div class="work__img">
-                    <img src="assets/img/Sloba_MIric.png" alt="">
-
-                    <div class="work__link">
-                        <a href="https://dalibordespic.github.io/Sloba-js" class="work__link-name" target="_blank">View details</a>
-                    </div>
-                </div>
-                <div class="work__img">
-                    <img src="./assets/img/Designer2.png" alt="">
-
-                    <div class="work__link">
-                        <a href="https://dalibordespic.github.io/Designer/" class="work__link-name" target="_blank">View
-                            details</a>
-                    </div>
-                </div>
-                <div class="work__img">
-                    <img src="assets/img/Homemade.png" alt="">
-
-                    <div class="work__link">
-                        <a href="https://dalibordespic.github.io/Handmade/" class="work__link-name" target="_blank">View details</a>
-                    </div>
-                </div>
-                <div class="work__img">
-                    <img src="assets/img/Planinarenje.png" alt="">
-
-                    <div class="work__link">
-                        <a href="https://dalibordespic.github.io/Planinarenje/" class="work__link-name" target="_blank">View details</a>
-                    </div>
-                </div>
-                <div class="work__img">
-                    <img src="assets/img/healty_food.png" alt="">
-
-                    <div class="work__link">
-                        <a href=" https://dalibordespic.github.io/Healty-food-restaurant/" class="work__link-name" target="_blank">View details</a>
-                    </div>
-                </div>
-            </div>
-
-            <a href="https://github.com/DaliborDespic" class="work__view-more" target="_blank">View More Projects</a>
-        </section>
-
-        <!--===== CONTACT =====-->
-        <section class="contact container" id="contact">
-            <h2 class="section-title">Contact</h2>
-
-            <div class="contact__container">
-                <div class="contact__info">
-                    <h3 class="contact__subtitle">EMAIL</h3>
-                    <span class="contact__text">dalibordespic@yahoo.com</span>
-
-                    <h3 class="contact__subtitle">PHONE</h3>
-                    <span class="contact__text">+381 63 717 86 01</span>
-
-                    <h3 class="contact__subtitle">ADRESS</h3>
-                    <span class="contact__text">Arse Teodorovica 27, Novi Sad</span>
-                </div>
-
-                <form target="_blank" action="https://formsubmit.co/dalibordespic@yahoo.com" method="POST" class="contact__form">
-                    <div class="contact__inputs">
-                        <input type="text" name="name" placeholder="Full name" class="contact__input" required>
-                        <input type="email" name="email" placeholder="Email" class="contact__input" required>
-                    </div>
-
-                    <textarea name="message" rows="10" class="contact__input" required></textarea>
-
-                    <button type="submit" class="contact__button">Send</button>
-                </form>
-            </div>
-        </section>
+            <button type="submit" class="contact__button">Send</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <!--===== FOOTER =====-->
     <footer class="footer container">
-        <div class="footer__container">
-            <div class="footer__data">
-                <h2 class="footer__title">Dalibor Despic</h2>
-                <p class="footer__text">I am Dalibor Despic and this is my personal website</p>
-            </div>
-
-            <div class="footer__data">
-                <h2 class="footer__title">EXPLORE</h2>
-                <ul>
-                    <li><a href="#home" class="footer__link">Home</a></li>
-                    <li><a href="#about" class="footer__link">About</a></li>
-                    <li><a href="#skills" class="footer__link">Skills</a></li>
-                    <li><a href="#work" class="footer__link">Projects</a></li>
-                    <li><a href="#contact" class="footer__link">Contact</a></li>
-                </ul>
-            </div>
-
-            
-            <div class="footer__data">
-                <h2 class="footer__title">FOLLOW ME</h2>
-                <a href="https://www.linkedin.com/in/dalibor-despi%C4%87-073734b2/" class="footer__social" target="_blank">
-                    <i class='bx bxl-linkedin'></i>
-                </a>
-                <a href="https://github.com/DaliborDespic" class="footer__social" target="_blank">
-                    <i class='bx bxl-github'></i>
-                </a>
-            </div>
+      <div class="footer__container">
+        <div class="footer__data">
+          <h2 class="footer__title">Dalibor Despic</h2>
+          <p class="footer__text">
+            I am Dalibor Despic and this is my personal website
+          </p>
         </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">EXPLORE</h2>
+          <ul>
+            <li><a href="#home" class="footer__link">Home</a></li>
+            <li><a href="#about" class="footer__link">About</a></li>
+            <li><a href="#skills" class="footer__link">Skills</a></li>
+            <li><a href="#work" class="footer__link">Projects</a></li>
+            <li><a href="#contact" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">FOLLOW ME</h2>
+          <a
+            href="https://www.linkedin.com/in/dalibor-despi%C4%87-073734b2/"
+            class="footer__social"
+            target="_blank"
+          >
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/DaliborDespic"
+            class="footer__social"
+            target="_blank"
+          >
+            <i class="bx bxl-github"></i>
+          </a>
+        </div>
+      </div>
     </footer>
 
     <script src="./assets/js/app.js"></script>
-</body>
-
+  </body>
 </html>
